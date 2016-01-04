@@ -87,7 +87,7 @@ namespace WCfDemoApplication
             //}
 
             // -- using Fault Contract
-            catch (Exception ex)
+            catch (Exception)
             {
                 var invalidEntry = new InvalidCustomerEntry
                 {
